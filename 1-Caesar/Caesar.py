@@ -1,5 +1,5 @@
-plainText = raw_input("Introduce text to cipher: ")
-shift = int(raw_input("Introduce shift: "))
+plainText = input("Introduce text to cipher: ")
+shift = int(input("Introduce shift: "))
 
 def encrypt(plainText,shift):
   result = ""
@@ -18,4 +18,4 @@ def encrypt(plainText,shift):
   #check the above function
 
 cipherText = encrypt(plainText, shift)
-print "Ciphertext is: ", cipherText
+print("Ciphertext is: ", cipherText)
